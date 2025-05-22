@@ -1,0 +1,22 @@
+.contact-page {
+  min-height: 100vh;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-page h1 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: var(--text-color);
+}
+
+@media (min-width: 768px) {
+  .contact-page {
+    padding: 2rem;
+  }
+}

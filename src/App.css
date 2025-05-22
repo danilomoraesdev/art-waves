@@ -1,0 +1,65 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 2rem;
+  line-height: 1.3;
+}
+
+h2 {
+  font-size: 1.5rem;
+  line-height: 1.4;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  h2 {
+    font-size: 2rem;
+  }
+}
+button {
+  cursor: pointer;
+}
+
+:root {
+  --primary-color: rgb(66, 66, 66);
+  --primary-color-onhover: black;
+  --error-color: #dc3545;
+  --success-color: #28a745;
+  --secondary-background-color: rgb(232, 232, 232);
+  --secondary-background-color-onhover: rgb(214, 214, 214);
+  --background-color: #fafafa;
+  --text-color: #333333;
+  --input-background: #fafafa;
+  --input-border: #e0e0e0;
+  --input-focus-border: #666666;
+  --form-background: #ffffff;
+  --box-shadow: 0px 2px 33px 3px rgba(234, 234, 234, 0.8);
+  
+  --transition-speed: 0.3s;
+}
+
+[data-theme="dark"] {
+  --background-color: #1a1a1a;
+  --text-color: #ffffff;
+  --input-background: #2a2a2a;
+  --error-color: #e65d6b;
+  --success-color:rgb(72, 190, 104);
+  --input-border: #404040;
+  --input-focus-border: #666666;
+  --form-background: #2d2d2d;
+  --box-shadow: 0px 2px 33px 3px rgba(0, 0, 0, 0.1);
+  --secondary-background-color: #404040;
+  --secondary-background-color-onhover: #4d4d4d;
+}
