@@ -6,7 +6,7 @@
 
 ### Instructions
 
-- See screen recording here: [soon]
+- See screen recording here: [video](https://drive.google.com/file/d/1Xhgfhmjq1zbnzpo2v0WSBockQoL_H6bW/view?usp=sharing)
 - Contact form located at: /contact
 
 ## ➕ Additional Details
